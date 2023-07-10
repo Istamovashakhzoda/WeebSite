@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: font;
+    src: url(./fonts/Fonts/static/OpenSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: para;
+    src: url(./fonts/Fonts/static/OpenSans_SemiCondensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: bold;
+    src: url(./fonts/Fonts/static/OpenSans_SemiCondensed-ExtraBold.ttf);
+}
+
+header{
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+    height:15vh;
+    background-color: white;
+}
+
+.firstInfo{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 180px;
+}
+
+.left{
+    font-family:para;
+}
+
+.mid ul{
+    display: flex;
+    gap: 40px;
+}
+
+.mid li{
+    list-style: none;
+}
+
+.mid a{
+    text-decoration: none;
+    color: black;
+    font-family: font;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 0;
+}
+
+.btn span{
+    font-size: 40px;
+}
+
+.btn button{
+    padding: 17px 29px;
+    border: none;
+    color: white;
+    font-family: font;
+    background-color: #01ade2;
+}
+
+.mid a:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #01ade2;
+    color: #01ade2;
+}
+
+.btn button:hover{
+    cursor: pointer;
+    background-color: lightskyblue;
+    transform: translate(1.9px);
+    transition:1.09s;
+}
+
+.spn{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    font-family: font;
+    position: absolute;
+    font-size: 20px;
+    left: 190px;
+}
+
+.spn span{
+    color:#e7643c; 
+}
+
+.next{
+    margin-top: 40px;
+    margin-left: 190px;
+    font-family: bold;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.para p{
+    color: grey;
+    margin-left: 195px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    width: 80vw;
+}
+
+.leef{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+
+.leef img{
+    width: 650px;
+    height: 520px;
+    position: relative;
+    top: 59px;
+}
+
+.leef h5{
+    width: 650px;
+    height: 250px;
+    background-color: black;
+    color: white;
+    font-family: font;
+    line-height: 30px;
+    font-size: 16.72px;
+}
+
+.leef .pare{
+    width: 750px;
+}
+
+.leef .pare p{
+    font-family: font;
+    line-height: 35px;
+    font-size: 21px;
+}
+
+.leef .pare span{
+    color: #01ade2;
+    border-bottom: 1.9px solid #01ade2;
+}
+
+.leef h4{
+    font-size: 19px;
+    font-size: para;
+}
+
+.leef h1{
+    display: flex;
+    align-items: flex-start;
+}
+
+.leef .para{
+    margin-left: 0;
+}
+
+.leef button{
+    border: none;
+    background-color: #c29fe3;
+    color: white;
+    font-size: 19px;
+    border-radius: 7px;
+    font-family: font;
+    padding: 10px 22px;
+    margin-left: 0;
+}
+
+.riigt{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 350px;
+    height: 550vh;
+    background-color: lightgray;
+}
+
+.riigt h5{
+    font-family:bold;
+    padding: 18px;
+    font-size: 29.78px;
+}
+
+.riigt img{
+    padding-left: 10px;
+    width: 340px;
+    height: 159px;
+}
+
+.riigt p{
+    color: #e7643c;
+    font-family:font;
+    margin-left: 15px;
+}
+
+.riigt h5{
+    font-family: bold;
+    font-size: 21.72px;
+}
+
+.imgInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.PicInf {
+    width: 370px;
+    line-height: 30px;
+}
+
+.PicInf img{
+    width: 370px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.PicInf h6{
+    color: #e7643c;
+    font-family: para;
+    font-size: 18px;
+}
+
+.PicInf h3{
+    font-size: 26px;
+    font-family: font;
+}
+
+.PicInf p{
+    font-size: 14px;
+    font-family: font;
+    color: rgb(30, 34, 37);
+}
+
+footer{
+    margin-top: 30px;
+    background-color: #101820;
+}
+
+.lastSection{
+    display: flex;
+    padding-top: 30px;
+    padding: 39px;
+}
+
+.first h1{
+    color: white;
+    font-size: 24px;
+    font-family: para;
+}
+
+.first p{
+    color: white;
+    font-size: 16px;
+    font-family: font;
+}
+
+.ull ul{
+    list-style: none;
+    line-height: 29px;
+}
+
+.ull a{
+    text-decoration: none;
+    color: #01ade2;
+    font-family: font;
+    font-size: 19px;
+}
+
+.ull a:hover{
+    color: rgb(207,46,46) 100%;
+    cursor: pointer;
+    border-bottom: 1px soli rgb(30, 34, 37);
+}
+
+.li h4{
+    color: white;
+    font-family: font;
+}
+
+.li ul{
+    list-style: none;
+    line-height: 29px;
+}
+
+.li a{
+    text-decoration: none;
+    color: #01ade2;
+    font-family: font;
+    font-size: 19px;
+}
+
+
+.loc{
+    color: white;
+    font-family: font;
+    line-height: 28px;
+}
+
+
